@@ -53,16 +53,17 @@ export default function Home() {
               collaboration of artists from Jatiwangi Art Factory and Artists
               from Japan. Aldizar (JaF) & Gakuji Masui (Japan) presented a joint
               work resulting from a 1-month residency. They made a banquet and
-              presentation about pottery/ceramic art entitled "Jawara Kawara".
-              In the event, each of us did a presentation on what was presented.
-              Alfi Syahrian (Kasungka Coffee) explained about coffee and his
-              interest in coffee research in the Majalengka region. Arman Knaci
-              (Rempah Embassy) as a spice concoction also presented spice
-              stories and their intersections in the history of the archipelago.
-              Yussan AF, meanwhile, did a performative presentation, playing the
-              sounds of tea brewing equipment. After the event, Yussan AF
-              thought of inviting Arman and Alfi to create a group (ensemble) of
-              brewers who process sounds and brew performatively.
+              presentation about pottery/ceramic art entitled &rdquo;Jawara
+              Kawara&rdquo;. In the event, each of us did a presentation on what
+              was presented. Alfi Syahrian (Kasungka Coffee) explained about
+              coffee and his interest in coffee research in the Majalengka
+              region. Arman Knaci (Rempah Embassy) as a spice concoction also
+              presented spice stories and their intersections in the history of
+              the archipelago. Yussan AF, meanwhile, did a performative
+              presentation, playing the sounds of tea brewing equipment. After
+              the event, Yussan AF thought of inviting Arman and Alfi to create
+              a group (ensemble) of brewers who process sounds and brew
+              performatively.
             </p>
           </div>
           <div className="block lg:hidden col-span-3">
@@ -120,9 +121,9 @@ export default function Home() {
             <p className="font-bold leading-7 lg:text-2xl text-sm mt-12">
               Taken from the word tinyuh in Sundanese which means Brew.
               Processed into Tiny-Uh which can also be interpreted as into
-              English &rdquo;Tiny&rdquo; small and &rdquo;Uh&rdquo; expression of something
-              extraordinary. It can be interpreted as something small but
-              capable of expressing something extraordinary.
+              English &rdquo;Tiny&rdquo; small and &rdquo;Uh&rdquo; expression
+              of something extraordinary. It can be interpreted as something
+              small but capable of expressing something extraordinary.
             </p>
           </div>
         </div>
@@ -190,7 +191,7 @@ export default function Home() {
             Opening Act
           </h1>
           <h1 className="text-[30px] lg:text-[50px] font-bold">
-            Senyawa <br /> "Nirantara Tour"
+            Senyawa <br /> &rdquo;Nirantara Tour&rdquo;
           </h1>
         </div>
         <div className="flex overflow-x-auto z-10">
@@ -245,7 +246,7 @@ export default function Home() {
             Musik Harmonisasi Alam X Tiba-Tiba Manggung
           </h1>
           <h1 className="text-[30px] lg:text-[50px] font-bold mb-12">
-            “ SWARA LEMBAH “ <br /> 2023
+            &rdquo;SWARA LEMBAH&rdquo; <br /> 2023
           </h1>
           <div className="flex overflow-x-auto z-10">
             <Image
