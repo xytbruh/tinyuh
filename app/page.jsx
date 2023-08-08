@@ -32,6 +32,7 @@ export default function Home() {
       <div className="static lg:mt-48">
         <div className="absolute w-full left-[-150px] top-[1280px] -z-50">
           <Image
+            alt="about"
             src={"/about-bg.png"}
             height={"1000"}
             width={"1000"}
@@ -133,6 +134,7 @@ export default function Home() {
               src={"/about-img1.jpeg"}
               height={"600"}
               width={"600"}
+              alt="about"
               className="mx-auto w-full h-auto"
             />
             <h4 className="font-bold text-center mt-10">Yussan AF</h4>
@@ -143,6 +145,7 @@ export default function Home() {
               src={"/about-img2.jpeg"}
               height={"600"}
               width={"600"}
+              alt="about"
               className="mx-auto w-full h-auto"
             />
             <h4 className="font-bold text-center mt-10">Alfi Syahrian</h4>
@@ -152,6 +155,7 @@ export default function Home() {
             <Image
               src={"/about-img3.jpeg"}
               height={"600"}
+              alt="about"
               width={"600"}
               className="mx-auto w-full h-auto"
             />
@@ -162,6 +166,7 @@ export default function Home() {
             <Image
               src={"/about-img4.jpeg"}
               height={"600"}
+              alt="about"
               width={"600"}
               className="mx-auto w-full h-auto"
             />
@@ -177,6 +182,7 @@ export default function Home() {
           <Image
             src={"/gallery-bg.png"}
             height={"1000"}
+            alt="gallery"
             width={"1000"}
             className="opacity-10"
           />
