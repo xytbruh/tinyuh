@@ -120,7 +120,7 @@ export default function Home() {
             <p className="font-bold leading-7 lg:text-2xl text-sm mt-12">
               Taken from the word tinyuh in Sundanese which means Brew.
               Processed into Tiny-Uh which can also be interpreted as into
-              English “Tiny” small and “Uh” expression of something
+              English &rdquo;Tiny&rdquo; small and &rdquo;Uh&rdquo; expression of something
               extraordinary. It can be interpreted as something small but
               capable of expressing something extraordinary.
             </p>
