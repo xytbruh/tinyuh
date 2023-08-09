@@ -3,20 +3,16 @@ import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 
 const SITEMAP = [
   {
-    title: "Company",
-    links: ["About Us", "Careers", "Our Team", "Projects"],
+    title: "Contact",
+    links: ["tinyuh.project@gmail.com", "(+62) 895-2466-9313", "@tiny_uh"],
   },
   {
-    title: "Help Center",
-    links: ["Discord", "Twitter", "GitHub", "Contact Us"],
+    title: "About",
+    links: [""],
   },
   {
-    title: "Resources",
-    links: ["Blog", "Newsletter", "Free Products", "Affiliate Program"],
-  },
-  {
-    title: "Products",
-    links: ["Templates", "UI Kits", "Icons", "Mockups"],
+    title: "Gallery",
+    links: [""],
   },
 ];
 
@@ -62,8 +58,8 @@ export function Footer() {
             className="mb-4 text-center font-normal text-black md:mb-0"
           >
             &copy; {currentYear}{" "}
-            <a href="https://material-tailwind.com/">alali.id</a>. All
-            Rights Reserved.
+            <a href="https://material-tailwind.com/">tiny-UH</a>. All Rights
+            Reserved.
           </Typography>
           <div className="flex gap-4 text-black sm:justify-center">
             <Typography

@@ -8,7 +8,7 @@ export default function Home() {
       {/* hero */}
       <div className="justify-between lg:flex block mx-auto p-10 lg:mx-7 my-16 container">
         <div className="my-auto">
-          <h1 className="text-[90px]">
+          <h1 className="lg:text-[90px] text-[50px]">
             tiny<span className="uppercase font-bold ">uh.</span>
           </h1>
           <hr className="border-2 border-[#DBC7A1] my-8" />
@@ -22,6 +22,7 @@ export default function Home() {
             width={"285"}
             height={"285"}
             alt="hero"
+            priority
             className="w-auto h-auto"
           />
         </div>
@@ -41,7 +42,7 @@ export default function Home() {
         </div>
         <h1 className="font-bold lg:text-[80px] text-4xl  p-10 mx-7">About.</h1>
         <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
-        <div className="grid grid-cols-3 gap-5 p-10 mx-7">
+        <div className="grid grid-cols-3 gap-5 p-10 lg:mx-7 mx-3">
           <div className="lg:col-span-2 col-span-3">
             <p className="leading-7 font-bold lg:text-2xl text-sm">
               Tiny uh is a banquet ceremony that conceptualizes the performing
@@ -128,7 +129,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-5 mx-7 my-16">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mx-7 my-16">
           <div className="bg-[#242629] p-7">
             <Image
               src={"/about-img1.jpeg"}
@@ -192,7 +193,7 @@ export default function Home() {
         </h1>
         <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
 
-        <div className="text-center my-28">
+        <div className="text-center my-28 lg:mx-7 mx-3">
           <h1 className="text-[30px] lg:text-[50px] font-extralight">
             Opening Act
           </h1>
@@ -247,7 +248,7 @@ export default function Home() {
         <p className="lg:float-right text-center my-12">
           Photo Taken By @alma.noxa
         </p>
-        <div className="text-center my-40">
+        <div className="text-center my-40 lg:mx-7 mx-3">
           <h1 className="text-[30px] lg:text-[50px] font-extralight">
             Musik Harmonisasi Alam X Tiba-Tiba Manggung
           </h1>
@@ -294,6 +295,57 @@ export default function Home() {
         </div>
       </div>
       {/* end gallery */}
+      {/* upeti */}
+      <h1 className="font-bold lg:text-[80px] text-4xl p-10 mx-7">Upeti.</h1>
+      <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
+      <div className="lg:mx-20 lg:p-16 p-6 mx-4 relative">
+        <Image
+          src={"/upeti1.png"}
+          width={"100"}
+          height={"100"}
+          alt="upeti"
+          className="w-auto h-auto mb-11"
+        />
+        <div className="bg-[#242629] w-full lg:h-56 h-36 rounded-lg"></div>
+      </div>
+      <div className="lg:mx-20 lg:p-16 p-6 mx-4 relative grid justify-items-end">
+        <Image
+          src={"/upeti2.png"}
+          width={"100"}
+          height={"100"}
+          alt="upeti"
+          className="w-auto h-auto mb-11"
+        />
+        <div className="bg-[#242629] w-full lg:h-56 h-36 rounded-lg"></div>
+      </div>
+      <div className="lg:mx-20 lg:p-16 p-6 mx-4 relative">
+        <Image
+          src={"/upeti3.png"}
+          width={"100"}
+          height={"100"}
+          alt="upeti"
+          className="w-auto h-auto mb-11"
+        />
+        <div className="bg-[#242629] w-full lg:h-56 h-36 rounded-lg"></div>
+      </div>
+      {/* end upeti */}
+      <div className="mx-auto text-center lg:p-12">
+        <h1 className="font-bold text-[50px]">Subscribe To Newsletter</h1>
+        <p className="font-normal text-xl">
+          Subscribe to our newsletter to get amazing offers in future.
+        </p>
+        <div className="grid grid-cols-3 gap-4 lg:mx-80 p-7">
+          <input
+            type="text"
+            className="col-span-2 bg-[#DBC7A1] text-black px-5 py-2 rounded-md"
+          />
+          <input
+            type="submit"
+            value="Get Start"
+            className="bg-[#DBC7A1] text-black rounded-md"
+          />
+        </div>
+      </div>
     </Content>
   );
 }
