@@ -1,10 +1,12 @@
 "use client";
 import Image from "next/image";
 import Content from "./components/Content";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
     <Content>
+      <Analytics />
       {/* hero */}
       <div className="justify-between lg:flex block mx-auto p-10 lg:mx-7 my-16 container">
         <div className="my-auto">
