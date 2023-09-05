@@ -54,7 +54,7 @@ export function Footer() {
         </div>
         <div className="flex w-full flex-col items-center justify-center border-t border-gray-800 py-4 md:flex-row md:justify-between">
           <Typography
-            variant="small"
+            variant="xl"
             className="mb-4 text-center font-normal text-black md:mb-0"
           >
             &copy; {currentYear}{" "}
@@ -67,21 +67,21 @@ export function Footer() {
               href="#"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
-              <FaInstagram />
+              <FaInstagram size="35" />
             </Typography>
             <Typography
               as="a"
               href="#"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
-              <FaFacebook />
+              <FaFacebook size="35" />
             </Typography>
             <Typography
               as="a"
               href="#"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
-              <FaTiktok />
+              <FaTiktok size="35" />
             </Typography>
           </div>
         </div>

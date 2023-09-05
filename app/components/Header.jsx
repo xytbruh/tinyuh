@@ -21,24 +21,24 @@ export function Header() {
 
   const navList = (
     <ul className="mb-4 mt-2 px-14  flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-44">
-      <Typography as="li" className="p-1 font-normal text-sm uppercase">
-        <Link href="#" className="flex items-center">
-          About
+      <Typography as="li" className="p-1 font-normal text-sm">
+        <Link href="#about" className="flex items-center">
+          ABOUT
         </Link>
       </Typography>
-      <Typography as="li" className="p-1 font-normal text-sm uppercase">
-        <Link href="#" className="flex items-center">
-          Gallery
+      <Typography as="li" className="p-1 font-normal text-sm">
+        <Link href="#gallery" className="flex items-center">
+          GALLERY
         </Link>
       </Typography>
-      <Typography as="li" className="p-1 font-normal text-sm uppercase">
-        <Link href="#" className="flex items-center">
-          Contact
+      <Typography as="li" className="p-1 font-normal text-sm ">
+        <Link href="#works" className="flex items-center">
+          tiny WORKS
         </Link>
       </Typography>
-      <Typography as="li" className="p-1 font-normal text-sm uppercase">
-        <Link href="#" className="flex items-center">
-          Upeti
+      <Typography as="li" className="p-1 font-normal text-sm">
+        <Link href="#store" className="flex items-center">
+          tiny STORE
         </Link>
       </Typography>
     </ul>

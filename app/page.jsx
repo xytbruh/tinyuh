@@ -18,19 +18,19 @@ export default function Home() {
         </div>
         <div>
           <Image
-            src={"/hero-tinyuh.png"}
-            width={"285"}
-            height={"285"}
+            src={"/hero-tinyuh-2.png"}
+            width={"500"}
+            height={"500"}
             alt="hero"
             priority
-            className="w-auto h-auto"
+            className="w-auto h-auto object-contain"
           />
         </div>
       </div>
       {/* end hero */}
 
       {/* about */}
-      <div className="static lg:mt-48">
+      <div className="static lg:mt-48" id="about">
         <div className="absolute w-full left-[-150px] top-[1280px] -z-50">
           <Image
             alt="about"
@@ -43,29 +43,19 @@ export default function Home() {
         <h1 className="font-bold lg:text-[80px] text-4xl  p-10 mx-7">About.</h1>
         <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
         <div className="grid grid-cols-3 gap-5 p-10 lg:mx-7 mx-3">
-          <div className="lg:col-span-2 col-span-3">
+          <div className="lg:col-span-2 col-span-3 my-12">
             <p className="leading-7 font-bold lg:text-2xl text-sm">
-              Tiny uh is a banquet ceremony that conceptualizes the performing
-              arts of the sense of hearing, sense of sight, sense of smell and
-              sense of taste consisting of a banquet of tea, coffee and spices.
-              these three elements are superior commodities found in Majalengka
-              Regency and in Indonesia. <br />
-              <br />
-              The beginning of Tiny-Uh began with an art event held by a
-              collaboration of artists from Jatiwangi Art Factory and Artists
-              from Japan. Aldizar (JaF) & Gakuji Masui (Japan) presented a joint
-              work resulting from a 1-month residency. They made a banquet and
-              presentation about pottery/ceramic art entitled &rdquo;Jawara
-              Kawara&rdquo;. In the event, each of us did a presentation on what
-              was presented. Alfi Syahrian (Kasungka Coffee) explained about
-              coffee and his interest in coffee research in the Majalengka
-              region. Arman Knaci (Rempah Embassy) as a spice concoction also
-              presented spice stories and their intersections in the history of
-              the archipelago. Yussan AF, meanwhile, did a performative
-              presentation, playing the sounds of tea brewing equipment. After
-              the event, Yussan AF thought of inviting Arman and Alfi to create
-              a group (ensemble) of brewers who process sounds and brew
-              performatively.
+              tinyUH means brew in Sundanese, while there is a small word 'tiny'
+              whose members consist of small entrepreneurs who live in a small
+              city in Indonesia called Majalengka. tinyUH are collective of
+              small entrepreneurs of coffee, tea and spices, as well as
+              terracotta tableware, while playing their brewed compositions
+              solemnly as daily ritual. In addition to playing musical
+              compositions, tinyUH also plays economic activities as part of the
+              show. tinyUH reconstructs the whole atmosphere of taste, visual,
+              aroma, sound, up to the trading process, based on the long history
+              of colonialism in Indonesia that intersects through spices,
+              coffee, tea and clay.
             </p>
           </div>
           <div className="block lg:hidden col-span-3">
@@ -114,20 +104,6 @@ export default function Home() {
             audio (sound) visual (movement, appearance) and once ready to serve
             we enjoy with the senses of smell (fragrance) and taste (flavor).
           </p>
-
-          <div className=" col-span-3 text-center mt-16">
-            <h3 className="lg:text-[40px] text-[25px]">
-              tiny<span className="uppercase font-bold ">uh.</span>
-            </h3>
-
-            <p className="font-bold leading-7 lg:text-2xl text-sm mt-12">
-              Taken from the word tinyuh in Sundanese which means Brew.
-              Processed into Tiny-Uh which can also be interpreted as into
-              English &rdquo;Tiny&rdquo; small and &rdquo;Uh&rdquo; expression
-              of something extraordinary. It can be interpreted as something
-              small but capable of expressing something extraordinary.
-            </p>
-          </div>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mx-7 my-16">
           <div className="bg-[#242629] p-7">
@@ -178,7 +154,7 @@ export default function Home() {
       </div>
       {/* end about */}
       {/* gallery */}
-      <div className="static mt-24 overflow-hidden">
+      <div className="static mt-24 overflow-hidden" id="gallery">
         <div className="absolute top-[3200px] right-0 -z-50">
           <Image
             src={"/gallery-bg.png"}
@@ -292,43 +268,119 @@ export default function Home() {
               className="w-auto h-auto"
             />
           </div>
+          <p className="lg:float-right text-center my-12">
+            Photo Taken By @alma.noxa
+          </p>
+        </div>
+        <div className="text-center my-40 lg:mx-7 mx-3">
+          <h1 className="text-[30px] lg:text-[50px] font-extralight">
+            KONNECT ASEAN
+          </h1>
+          <h1 className="text-[30px] lg:text-[50px] font-bold mb-12">
+            &rdquo;External Assesment Summer School&rdquo; <br /> 2023
+          </h1>
+          <div className="flex overflow-x-auto z-10">
+            <Image
+              src={"/konnect-asean-1.png"}
+              width={"600"}
+              height={"600"}
+              alt="gallery"
+              className="w-auto h-auto"
+            />
+            <Image
+              src={"/konnect-asean-2.png"}
+              width={"600"}
+              height={"600"}
+              alt="gallery"
+              className="w-auto h-auto"
+            />
+            <Image
+              src={"/konnect-asean-3.png"}
+              width={"600"}
+              height={"600"}
+              alt="gallery"
+              className="w-auto h-auto"
+            />
+            <Image
+              src={"/konnect-asean-4.png"}
+              width={"600"}
+              height={"600"}
+              alt="gallery"
+              className="w-auto h-auto"
+            />
+            <Image
+              src={"/konnect-asean-5.png"}
+              width={"600"}
+              height={"600"}
+              alt="gallery"
+              className="w-auto h-auto"
+            />
+            <Image
+              src={"/konnect-asean-6.png"}
+              width={"600"}
+              height={"600"}
+              alt="gallery"
+              className="w-auto h-auto"
+            />
+          </div>
+          <p className="lg:float-right text-center my-12">
+            Photo Taken By @alma.noxa
+          </p>
         </div>
       </div>
-      {/* end gallery */}
-      {/* upeti */}
-      <h1 className="font-bold lg:text-[80px] text-4xl p-10 mx-7">Upeti.</h1>
-      <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
-      <div className="lg:mx-20 lg:p-16 p-6 mx-4 relative">
-        <Image
-          src={"/upeti1.png"}
-          width={"100"}
-          height={"100"}
-          alt="upeti"
-          className="w-auto h-auto mb-11"
-        />
-        <div className="bg-[#242629] w-full lg:h-56 h-36 rounded-lg"></div>
+      {/* end Asean */}
+      {/* about */}
+      <div className="static lg:mt-48" id="works">
+        <h1 className="font-bold lg:text-[80px] text-4xl  p-10 mx-7">
+          tiny Works.
+        </h1>
+        <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
+        <div className="text-center my-28 lg:mx-7 mx-3">
+          <h1 className="text-[30px] lg:text-[50px] font-extralight">Album</h1>
+          <h1 className="text-[30px] lg:text-[50px] font-bold">
+            &rdquo;Mula - Mula&rdquo; <br /> 2023
+          </h1>
+          <div>
+            <Image
+              className="w-auto h-auto mx-auto my-6"
+              src="/album.png"
+              height="300"
+              width="300"
+            />
+            <h1 className="text-[30px] lg:text-[50px] font-extralight">
+              Link Bandcam
+            </h1>
+
+            <a href="https://tinyuh.bandcamp.com/album/mula-mula">
+              https://tinyuh.bandcamp.com/album/mula-mula
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="lg:mx-20 lg:p-16 p-6 mx-4 relative grid justify-items-end">
-        <Image
-          src={"/upeti2.png"}
-          width={"100"}
-          height={"100"}
-          alt="upeti"
-          className="w-auto h-auto mb-11"
-        />
-        <div className="bg-[#242629] w-full lg:h-56 h-36 rounded-lg"></div>
+      {/* end about */}
+      {/* about */}
+      <div className="static my-48" id="store">
+        <h1 className="font-bold lg:text-[80px] text-4xl  p-10 mx-7">
+          tiny Store.
+        </h1>
+        <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
+
+        <div className="text-center">
+          <div className="flex items-center justify-center gap-6 mt-28 lg:mx-7 mx-3">
+            <Image className="my-6" src="/tokped.png" height="50" width="50" />
+            <h1 className="text-[30px] lg:text-[50px] font-extralight">
+              TOKOPEDIA
+            </h1>
+          </div>
+          <a
+            href="https://www.tokopedia.com/tinyuhstore"
+            className="text-[12px] md:text-[20px] lg:text-[50px] font-extralight"
+          >
+            https://www.tokopedia.com/tinyuhstore
+          </a>
+        </div>
       </div>
-      <div className="lg:mx-20 lg:p-16 p-6 mx-4 relative">
-        <Image
-          src={"/upeti3.png"}
-          width={"100"}
-          height={"100"}
-          alt="upeti"
-          className="w-auto h-auto mb-11"
-        />
-        <div className="bg-[#242629] w-full lg:h-56 h-36 rounded-lg"></div>
-      </div>
-      {/* end upeti */}
+      {/* end about */}
       <div className="mx-auto text-center lg:p-12">
         <h1 className="font-bold text-[50px]">Subscribe To Newsletter</h1>
         <p className="font-normal text-xl">
