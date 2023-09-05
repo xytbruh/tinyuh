@@ -45,7 +45,7 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-5 p-10 lg:mx-7 mx-3">
           <div className="lg:col-span-2 col-span-3 my-12">
             <p className="leading-7 font-bold lg:text-2xl text-sm">
-              tinyUH means brew in Sundanese, while there is a small word 'tiny'
+              tinyUH means brew in Sundanese, while there is a small word &apos;tiny&apos;
               whose members consist of small entrepreneurs who live in a small
               city in Indonesia called Majalengka. tinyUH are collective of
               small entrepreneurs of coffee, tea and spices, as well as
@@ -346,6 +346,7 @@ export default function Home() {
               src="/album.png"
               height="300"
               width="300"
+              alt="album"
             />
             <h1 className="text-[30px] lg:text-[50px] font-extralight">
               Link Bandcam
@@ -367,7 +368,7 @@ export default function Home() {
 
         <div className="text-center">
           <div className="flex items-center justify-center gap-6 mt-28 lg:mx-7 mx-3">
-            <Image className="my-6" src="/tokped.png" height="50" width="50" />
+            <Image className="my-6" src="/tokped.png" height="50" width="50" alt="tokped"/>
             <h1 className="text-[30px] lg:text-[50px] font-extralight">
               TOKOPEDIA
             </h1>
