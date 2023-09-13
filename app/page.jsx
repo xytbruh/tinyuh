@@ -126,7 +126,7 @@ export default function Home() {
               className="mx-auto w-full h-auto"
             />
             <h4 className="font-bold text-center mt-10">Alfi Syahrian</h4>
-            <h6 className="font-normal text-center">as Coffe Brewer</h6>
+            <h6 className="font-normal text-center">as Coffee Brewer</h6>
           </div>
           <div className="bg-[#242629] p-7">
             <Image
