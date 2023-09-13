@@ -338,7 +338,7 @@ export default function Home() {
         <div className="text-center my-28 lg:mx-7 mx-3">
           <h1 className="text-[30px] lg:text-[50px] font-extralight">Album</h1>
           <h1 className="text-[30px] lg:text-[50px] font-bold">
-            &rdquo;Mula - Mula&rdquo; <br /> 2023
+            &rdquo;150616841696&rdquo; <br /> 2023
           </h1>
           <div>
             <Image
