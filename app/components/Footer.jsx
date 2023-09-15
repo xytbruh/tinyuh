@@ -54,7 +54,7 @@ export function Footer() {
         </div>
         <div className="flex w-full flex-col items-center justify-center border-t border-gray-800 py-4 md:flex-row md:justify-between">
           <Typography
-            variant="xl"
+            variant="h6"
             className="mb-4 text-center font-normal text-black md:mb-0"
           >
             &copy; {currentYear}{" "}

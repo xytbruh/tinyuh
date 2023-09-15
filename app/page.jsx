@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Content from "./components/Content";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -45,17 +46,17 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-5 p-10 lg:mx-7 mx-3">
           <div className="lg:col-span-2 col-span-3 my-12">
             <p className="leading-7 font-bold lg:text-2xl text-sm">
-              tinyUH means brew in Sundanese, while there is a small word &apos;tiny&apos;
-              whose members consist of small entrepreneurs who live in a small
-              city in Indonesia called Majalengka. tinyUH are collective of
-              small entrepreneurs of coffee, tea and spices, as well as
-              terracotta tableware, while playing their brewed compositions
-              solemnly as daily ritual. In addition to playing musical
-              compositions, tinyUH also plays economic activities as part of the
-              show. tinyUH reconstructs the whole atmosphere of taste, visual,
-              aroma, sound, up to the trading process, based on the long history
-              of colonialism in Indonesia that intersects through spices,
-              coffee, tea and clay.
+              tinyUH means brew in Sundanese, while there is a small word
+              &apos;tiny&apos; whose members consist of small entrepreneurs who
+              live in a small city in Indonesia called Majalengka. tinyUH are
+              collective of small entrepreneurs of coffee, tea and spices, as
+              well as terracotta tableware, while playing their brewed
+              compositions solemnly as daily ritual. In addition to playing
+              musical compositions, tinyUH also plays economic activities as
+              part of the show. tinyUH reconstructs the whole atmosphere of
+              taste, visual, aroma, sound, up to the trading process, based on
+              the long history of colonialism in Indonesia that intersects
+              through spices, coffee, tea and clay.
             </p>
           </div>
           <div className="block lg:hidden col-span-3">
@@ -352,8 +353,8 @@ export default function Home() {
               Link Bandcam
             </h1>
 
-            <a href="https://tinyuh.bandcamp.com/album/mula-mula">
-              https://tinyuh.bandcamp.com/album/mula-mula
+            <a href="https://tinyuh.bandcamp.com/album/150616841696">
+              https://tinyuh.bandcamp.com/album/150616841696
             </a>
           </div>
         </div>
@@ -368,7 +369,13 @@ export default function Home() {
 
         <div className="text-center">
           <div className="flex items-center justify-center gap-6 mt-28 lg:mx-7 mx-3">
-            <Image className="my-6" src="/tokped.png" height="50" width="50" alt="tokped"/>
+            <Image
+              className="my-6"
+              src="/tokped.png"
+              height="50"
+              width="50"
+              alt="tokped"
+            />
             <h1 className="text-[30px] lg:text-[50px] font-extralight">
               TOKOPEDIA
             </h1>
@@ -382,21 +389,87 @@ export default function Home() {
         </div>
       </div>
       {/* end about */}
+      <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
       <div className="mx-auto text-center lg:p-12">
-        <h1 className="font-bold text-[50px]">Subscribe To Newsletter</h1>
-        <p className="font-normal text-xl">
-          Subscribe to our newsletter to get amazing offers in future.
-        </p>
-        <div className="grid grid-cols-3 gap-4 lg:mx-80 p-7">
-          <input
-            type="text"
-            className="col-span-2 bg-[#DBC7A1] text-black px-5 py-2 rounded-md"
-          />
-          <input
-            type="submit"
-            value="Get Start"
-            className="bg-[#DBC7A1] text-black rounded-md"
-          />
+        <div className="grid grid-cols-3 lg:mx-[200px] mx-8 gap-8">
+          <div>
+            <a
+              href="https://drive.google.com/file/d/16AA83k6okge5LmJyRmHWCNoVRwDvQzES/view?usp=drive_link"
+              className="font-bold text-2xl underline"
+            >
+              Logo
+            </a>
+            <Image
+              src="/BC1.png"
+              width="100"
+              height="100"
+              alt="albm"
+              className="w-auto h-auto mx-auto"
+            />
+          </div>
+          <div>
+            <a
+              href="https://drive.google.com/drive/folders/1JqkcXMjIBAAwMK4AQs3iJkC-oPJcZlKc?usp=drive_link"
+              className="font-bold text-2xl underline"
+            >
+              Photo
+            </a>
+            <Image
+              src="/BC1.png"
+              width="100"
+              height="100"
+              alt="albm"
+              className="w-auto h-auto mx-auto"
+            />
+          </div>
+          <div>
+            <a href="" className="font-bold text-2xl underline">
+              Tech Riders
+            </a>
+            <Image
+              src="/BC1.png"
+              width="100"
+              height="100"
+              alt="albm"
+              className="w-auto h-auto mx-auto"
+            />
+          </div>
+        </div>
+        <div className="grid grid-cols-4 lg:mx-[200px] mx-8 mt-12 gap-4">
+          <div className="mx-auto ">
+            <div className="bg-white rounded-full p-3">
+              <a href="" className="m-auto ">
+                <FaYoutube color="black" size="35" />
+              </a>
+            </div>
+          </div>
+          <div className="mx-auto ">
+            <div className="bg-white rounded-full p-3">
+              <a href="" className="m-auto ">
+                <FaFacebook color="black" size="35" />
+              </a>
+            </div>
+          </div>
+          <div className="mx-auto ">
+            <div className="bg-white rounded-full p-3">
+              <a href="" className="m-auto ">
+                <FaInstagram color="black" size="35" />
+              </a>
+            </div>
+          </div>
+          <div className="mx-auto ">
+            <div className="bg-white rounded-full p-3">
+              <a href="" className="m-auto ">
+                <Image
+                  src="/BCBlack.png"
+                  width="35"
+                  height="35"
+                  alt="albm"
+                  className="w-[35px] h-[35px] mx-auto"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </Content>

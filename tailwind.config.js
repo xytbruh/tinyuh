@@ -15,6 +15,9 @@ module.exports = withMT({
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
       },
+      backgroundImage: {
+        bc: "url('/BC1.png')",
+      },
     },
   },
   plugins: [],
