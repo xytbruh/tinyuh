@@ -64,14 +64,14 @@ export function Footer() {
           <div className="flex gap-4 text-black sm:justify-center">
             <Typography
               as="a"
-              href="#"
+              href="https://www.instagram.com/tiny_uh/"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
               <FaInstagram size="35" />
             </Typography>
             <Typography
               as="a"
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61550564013292"
               className="opacity-80 transition-opacity hover:opacity-100"
             >
               <FaFacebook size="35" />

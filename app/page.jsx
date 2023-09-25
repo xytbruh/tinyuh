@@ -350,7 +350,7 @@ export default function Home() {
               alt="album"
             />
             <h1 className="text-[30px] lg:text-[50px] font-extralight">
-              Link Bandcam
+              Link Bandcamp
             </h1>
 
             <a href="https://tinyuh.bandcamp.com/album/150616841696">
@@ -390,17 +390,17 @@ export default function Home() {
       </div>
       {/* end about */}
       <hr className="absolute w-full left-0  border border-[#DBC7A1]" />
-      <div className="mx-auto text-center lg:p-12">
-        <div className="grid grid-cols-3 lg:mx-[200px] mx-8 gap-8">
+      <div className="mx-auto text-center lg:p-12 ">
+        <div className="grid grid-cols-3 lg:mx-[200px] mx-8 gap-8 py-12">
           <div>
             <a
               href="https://drive.google.com/file/d/16AA83k6okge5LmJyRmHWCNoVRwDvQzES/view?usp=drive_link"
-              className="font-bold text-2xl underline"
+              className="font-bold text-2xl "
             >
               Logo
             </a>
             <Image
-              src="/BC1.png"
+              src="/Logo1.png"
               width="100"
               height="100"
               alt="albm"
@@ -410,12 +410,12 @@ export default function Home() {
           <div>
             <a
               href="https://drive.google.com/drive/folders/1JqkcXMjIBAAwMK4AQs3iJkC-oPJcZlKc?usp=drive_link"
-              className="font-bold text-2xl underline"
+              className="font-bold text-2xl "
             >
               Photo
             </a>
             <Image
-              src="/BC1.png"
+              src="/photos1.png"
               width="100"
               height="100"
               alt="albm"
@@ -423,11 +423,11 @@ export default function Home() {
             />
           </div>
           <div>
-            <a href="" className="font-bold text-2xl underline">
+            <a href="" className="font-bold text-2xl ">
               Tech Riders
             </a>
             <Image
-              src="/BC1.png"
+              src="/Riders1.png"
               width="100"
               height="100"
               alt="albm"
@@ -435,7 +435,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="grid grid-cols-4 lg:mx-[200px] mx-8 mt-12 gap-4">
+        <div className="grid grid-cols-4 lg:mx-[200px] mx-8 my-12 gap-4">
           <div className="mx-auto ">
             <div className="bg-white rounded-full p-3">
               <a href="" className="m-auto ">
@@ -445,21 +445,21 @@ export default function Home() {
           </div>
           <div className="mx-auto ">
             <div className="bg-white rounded-full p-3">
-              <a href="" className="m-auto ">
+              <a href="https://www.facebook.com/profile.php?id=61550564013292" className="m-auto ">
                 <FaFacebook color="black" size="35" />
               </a>
             </div>
           </div>
           <div className="mx-auto ">
             <div className="bg-white rounded-full p-3">
-              <a href="" className="m-auto ">
+              <a href="https://www.instagram.com/tiny_uh/" className="m-auto ">
                 <FaInstagram color="black" size="35" />
               </a>
             </div>
           </div>
           <div className="mx-auto ">
             <div className="bg-white rounded-full p-3">
-              <a href="" className="m-auto ">
+              <a href="https://tinyuh.bandcamp.com/album/150616841696" className="m-auto ">
                 <Image
                   src="/BCBlack.png"
                   width="35"
